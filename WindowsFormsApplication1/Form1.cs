@@ -25,7 +25,7 @@ namespace WindowsFormsApplication1
             int n = 0;
                 ok = int.TryParse(textBox1.Text, out n);
             if (!ok)
-                textBox1.Text = "Enter correct value!";
+                textBox1.Text = "Некорректный ввод!";
             else if (ok && n > 0)
                 result.Text = n + "! = " + fact.calculate(n);
 

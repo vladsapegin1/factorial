@@ -69,7 +69,7 @@
             this.result.Name = "result";
             this.result.Size = new System.Drawing.Size(37, 13);
             this.result.TabIndex = 3;
-            this.result.Text = "Result";
+            this.result.Text = "Результат";
             // 
             // btnCalc
             // 
@@ -77,7 +77,7 @@
             this.btnCalc.Name = "btnCalc";
             this.btnCalc.Size = new System.Drawing.Size(75, 23);
             this.btnCalc.TabIndex = 4;
-            this.btnCalc.Text = "Calculate";
+            this.btnCalc.Text = "Рассчитать";
             this.btnCalc.UseVisualStyleBackColor = true;
             this.btnCalc.Click += new System.EventHandler(this.btnCalc_Click);
             // 
